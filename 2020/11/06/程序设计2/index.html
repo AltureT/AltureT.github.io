@@ -22,15 +22,15 @@
 
   <meta name="description" content="循环结构与数组">
 <meta property="og:type" content="article">
-<meta property="og:title" content="程序设计2">
+<meta property="og:title" content="Programming practice II">
 <meta property="og:url" content="http://example.com/2020/11/06/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A12/index.html">
 <meta property="og:site_name" content="永嘉县罗浮中学信息技术">
 <meta property="og:description" content="循环结构与数组">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/image/1468-20201106130802772.jpg">
 <meta property="og:image" content="http://example.com/image/1476-20201106130802778.jpg">
-<meta property="article:published_time" content="2020-11-06T05:03:07.488Z">
-<meta property="article:modified_time" content="2020-11-06T07:23:59.217Z">
+<meta property="article:published_time" content="2020-11-06T05:03:07.000Z">
+<meta property="article:modified_time" content="2020-11-06T07:50:42.571Z">
 <meta property="article:author" content="黄黎耀">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/image/1468-20201106130802772.jpg">
@@ -48,7 +48,7 @@
   };
 </script>
 
-  <title>程序设计2 | 永嘉县罗浮中学信息技术</title>
+  <title>Programming practice II | 永嘉县罗浮中学信息技术</title>
   
 
 
@@ -166,7 +166,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          程序设计2
+          Programming practice II
         </h1>
 
         <div class="post-meta">
@@ -177,7 +177,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-11-06 13:03:07 / Modified: 15:23:59" itemprop="dateCreated datePublished" datetime="2020-11-06T13:03:07+08:00">2020-11-06</time>
+              <time title="Created: 2020-11-06 13:03:07 / Modified: 15:50:42" itemprop="dateCreated datePublished" datetime="2020-11-06T13:03:07+08:00">2020-11-06</time>
             </span>
 
           
@@ -197,37 +197,66 @@
 <p><strong>样例输出(输出数据一行，包括圆柱体底面周长和面积、圆柱体侧面积以及圆柱体体积，以空格分开)</strong>:</p>
 <p>6.28 3.14 12.57 6.28</p>
 <p><strong>程序分析</strong>:保留两位小数 Text1.Text = Format(3.125, “0.00”) ‘结果是3.13</p>
+<br/>
+
+
+
 <h2 id="2-求下列级数的值"><a href="#2-求下列级数的值" class="headerlink" title="2. 求下列级数的值"></a>2. 求下列级数的值</h2><p><img src="/image/1468-20201106130802772.jpg" alt="img"></p>
 <p><strong>样例输入</strong>:</p>
 <p>无</p>
 <p><strong>样例输出</strong>:</p>
+<p>无</p>
 <p><strong>程序分析</strong>:数据类型使用double,由于式子中正负互相变化,需要巧妙解决</p>
+<br/>
+
+
+
 <h2 id="3-输入n值，并利用下列格里高里公式计算并输出圆周率："><a href="#3-输入n值，并利用下列格里高里公式计算并输出圆周率：" class="headerlink" title="3. 输入n值，并利用下列格里高里公式计算并输出圆周率："></a>3. 输入n值，并利用下列格里高里公式计算并输出圆周率：</h2><p><img src="/image/1476-20201106130802778.jpg" alt="img"></p>
 <p><strong>样例输入(1个Text文本框输入公式中的n值。)</strong>:</p>
 <p>1</p>
 <p><strong>样例输出</strong>:</p>
 <p>2.66667</p>
 <p><strong>程序分析</strong>:当n越大的时候,越接近3.1415926….</p>
+<br/>
+
+
+
 <h2 id="4-有一个分数序列：2-1-3-2-5-3-8-5-13-8-…编写程序求出这个序列的前n项之和。"><a href="#4-有一个分数序列：2-1-3-2-5-3-8-5-13-8-…编写程序求出这个序列的前n项之和。" class="headerlink" title="4. 有一个分数序列：2/1, 3/2, 5/3, 8/5, 13/8, …编写程序求出这个序列的前n项之和。"></a>4. 有一个分数序列：2/1, 3/2, 5/3, 8/5, 13/8, …编写程序求出这个序列的前n项之和。</h2><p><strong>样例输入(输入n,1≤n≤10)</strong>:</p>
 <p>3</p>
 <p><strong>样例输出</strong>:</p>
 <p>5.166667</p>
 <p><strong>程序分析</strong>:此题可以通过找到循环次数与第n项的关系来解(后一项的分母是前一项的分子,后一项的分子是前一项的分子+分母)</p>
+<br/>
+
+
+
 <h2 id="5-求s-a-aa-aaa-aaaa-aa…a的值，其中a是一个1-9的数字。例如2-22-222-2222-22222-此时共有5个数相加-。"><a href="#5-求s-a-aa-aaa-aaaa-aa…a的值，其中a是一个1-9的数字。例如2-22-222-2222-22222-此时共有5个数相加-。" class="headerlink" title="5. 求s=a+aa+aaa+aaaa+aa…a的值，其中a是一个1~9的数字。例如2+22+222+2222+22222(此时共有5个数相加)。"></a>5. 求s=a+aa+aaa+aaaa+aa…a的值，其中a是一个1~9的数字。例如2+22+222+2222+22222(此时共有5个数相加)。</h2><p><strong>样例输入(输入有两个数a和n（其中1&lt;=a,n&lt;=9）)</strong>:</p>
 <p>2 5</p>
 <p><strong>样例输出</strong>:</p>
 <p>24690</p>
 <p><strong>程序分析</strong>:略</p>
+<br/>
+
+
+
 <h2 id="6-判断一个数n能否同时被3和5整除。"><a href="#6-判断一个数n能否同时被3和5整除。" class="headerlink" title="6. 判断一个数n能否同时被3和5整除。"></a>6. 判断一个数n能否同时被3和5整除。</h2><p><strong>样例输入(1个Text文本框输入正整数n)</strong>:</p>
 <p>15</p>
 <p><strong>样例输出(Label1.Caption标签输出,如果能够同时被3和5整除，输出Yes，否则输出No。)</strong>:</p>
 <p>Yes</p>
 <p><strong>程序分析</strong>:略</p>
+<br/>
+
+
+
 <h2 id="7-编一个程序，输入一个字符串，将组成字符串的所有非英文字母的字符删除后输出。"><a href="#7-编一个程序，输入一个字符串，将组成字符串的所有非英文字母的字符删除后输出。" class="headerlink" title="7. 编一个程序，输入一个字符串，将组成字符串的所有非英文字母的字符删除后输出。"></a>7. 编一个程序，输入一个字符串，将组成字符串的所有非英文字母的字符删除后输出。</h2><p><strong>样例输入</strong>:</p>
 <p>abc123+xyz.5</p>
 <p><strong>样例输出</strong>:</p>
 <p>abcxyz</p>
 <p><strong>程序分析</strong>:略</p>
+<br/>
+
+
+
 <h2 id="8-输入年和月，判断该月有几天？"><a href="#8-输入年和月，判断该月有几天？" class="headerlink" title="8. 输入年和月，判断该月有几天？"></a>8. 输入年和月，判断该月有几天？</h2><p><strong>样例输入(格式为年\月)</strong>:</p>
 <p>2009\01</p>
 <p><strong>样例输出(Label1.Caption标签输出该月的天数。)</strong>:</p>
@@ -252,12 +281,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/11/06/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A11/" rel="prev" title="程序设计1">
-      <i class="fa fa-chevron-left"></i> 程序设计1
+    <a href="/2020/11/06/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A11/" rel="prev" title="Programming practice I">
+      <i class="fa fa-chevron-left"></i> Programming practice I
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/11/06/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A13/" rel="next" title="程序设计3">
-      程序设计3 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/11/06/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A13/" rel="next" title="Programming practice III">
+      Programming practice III <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
